@@ -32,7 +32,45 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* all module style */
+
+/* module 1 */
+.firstContainer {
+  border: 2px solid rgba(57, 57, 33, 0.991);
+  background: #282c34;
+  color: white;
+}
+
+#seContainer {
+  border: 2px solid red;
+  margin: 20px;
+}
+
+
+/* module 2 */
+.secondContainer {
+  background-color: cadetblue;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.person-container {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background: rgb(245, 245, 137);
+}
+
+.userContainer {
+  background-color: cadetblue;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
 }
